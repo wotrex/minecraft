@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "102d08cc-cb1f-317b-bab0-ce50a9b4ca72",
+    "name": "Wotrexx",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
