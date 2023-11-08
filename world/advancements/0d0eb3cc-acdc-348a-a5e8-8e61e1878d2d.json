@@ -12,7 +12,8 @@
       "minecraft:river": "2023-11-04 11:43:06 +0000",
       "minecraft:lukewarm_ocean": "2023-11-04 18:01:42 +0000",
       "minecraft:savanna": "2023-11-04 11:41:11 +0000",
-      "minecraft:plains": "2023-11-04 11:43:09 +0000"
+      "minecraft:plains": "2023-11-04 11:43:09 +0000",
+      "minecraft:deep_lukewarm_ocean": "2023-11-07 17:51:59 +0000"
     },
     "done": false
   },
@@ -335,17 +336,19 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "beetroot_soup": "2023-11-04 13:33:38 +0000",
       "mutton": "2023-11-04 11:46:33 +0000",
-      "apple": "2023-11-05 13:46:30 +0000",
       "bread": "2023-11-04 13:53:52 +0000",
       "rotten_flesh": "2023-11-04 17:41:32 +0000",
-      "potato": "2023-11-05 12:13:19 +0000",
       "glow_berries": "2023-11-04 12:12:50 +0000",
-      "cooked_cod": "2023-11-04 12:24:27 +0000",
-      "mushroom_stew": "2023-11-04 13:41:51 +0000",
       "salmon": "2023-11-04 13:41:42 +0000",
       "baked_potato": "2023-11-05 14:16:43 +0000",
+      "beef": "2023-11-07 16:07:00 +0000",
+      "melon_slice": "2023-11-07 17:21:43 +0000",
+      "beetroot_soup": "2023-11-04 13:33:38 +0000",
+      "apple": "2023-11-05 13:46:30 +0000",
+      "potato": "2023-11-05 12:13:19 +0000",
+      "cooked_cod": "2023-11-04 12:24:27 +0000",
+      "mushroom_stew": "2023-11-04 13:41:51 +0000",
       "cooked_salmon": "2023-11-04 12:14:39 +0000"
     },
     "done": false
@@ -2251,6 +2254,96 @@
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2023-11-06 19:49:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2023-11-07 15:54:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2023-11-07 15:54:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2023-11-07 15:54:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2023-11-07 15:54:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2023-11-07 16:06:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2023-11-07 16:06:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2023-11-07 16:06:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2023-11-07 16:14:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab": {
+    "criteria": {
+      "has_polished_diorite": "2023-11-07 16:55:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs": {
+    "criteria": {
+      "has_polished_diorite": "2023-11-07 16:55:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2023-11-07 16:55:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2023-11-07 16:55:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2023-11-07 17:21:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2023-11-07 17:21:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2023-11-07 17:21:37 +0000"
     },
     "done": true
   },

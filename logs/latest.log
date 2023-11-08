@@ -1,258 +1,54 @@
-[09:39:48] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[09:39:52] [ServerMain/INFO]: Loaded 7 recipes
-[09:39:53] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[09:39:53] [Server thread/INFO]: Loading properties
-[09:39:53] [Server thread/INFO]: This server is running CraftBukkit version 3928-Spigot-dba3cdc-6aa644a (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT)
-[09:39:55] [Server thread/INFO]: Debug logging is disabled
-[09:39:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:39:55] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:39:55] [Server thread/INFO]: Default game type: SURVIVAL
-[09:39:55] [Server thread/INFO]: Generating keypair
-[09:39:55] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:39:55] [Server thread/INFO]: Using epoll channel type
-[09:39:55] [Server thread/ERROR]: Could not load 'plugins/DeathNote.jar' in folder 'plugins'
-org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
-	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:178) ~[spigot-api-1.20.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:144) ~[spigot-api-1.20.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.loadPlugins(CraftServer.java:437) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3928-Spigot-dba3cdc-6aa644a]
-	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:219) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3928-Spigot-dba3cdc-6aa644a]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:954) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3928-Spigot-dba3cdc-6aa644a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:298) ~[spigot-1.20.2-R0.1-SNAPSHOT.jar:3928-Spigot-dba3cdc-6aa644a]
-	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
-Caused by: java.util.zip.ZipException: zip END header not found
-	at java.util.zip.ZipFile$Source.findEND(ZipFile.java:1483) ~[?:?]
-	at java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1491) ~[?:?]
-	at java.util.zip.ZipFile$Source.<init>(ZipFile.java:1329) ~[?:?]
-	at java.util.zip.ZipFile$Source.get(ZipFile.java:1292) ~[?:?]
-	at java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:710) ~[?:?]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:243) ~[?:?]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:172) ~[?:?]
-	at java.util.jar.JarFile.<init>(JarFile.java:345) ~[?:?]
-	at java.util.jar.JarFile.<init>(JarFile.java:316) ~[?:?]
-	at java.util.jar.JarFile.<init>(JarFile.java:282) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:166) ~[spigot-api-1.20.2-R0.1-SNAPSHOT.jar:?]
-	... 6 more
-[09:39:55] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.0.3
-[09:39:55] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.3
-[09:39:57] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_20_R2[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m[m
-[09:39:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09:39:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[09:39:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09:39:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[09:39:57] [Server thread/INFO]: Preparing level "world"
-[09:39:57] [Server thread/INFO]: -------- World Settings For [world] --------
-[09:39:57] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:39:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:39:57] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:39:57] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:39:57] [Server thread/INFO]: View Distance: 32
-[09:39:57] [Server thread/INFO]: Simulation Distance: 10
-[09:39:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:39:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:39:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[09:39:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[09:39:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[09:39:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[09:39:57] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:39:57] [Server thread/INFO]: Mob Spawn Range: 6
-[09:39:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:39:57] [Server thread/INFO]: Max TNT Explosions: 100
-[09:39:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:39:58] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[09:39:58] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:39:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:39:58] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:39:58] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:39:58] [Server thread/INFO]: View Distance: 32
-[09:39:58] [Server thread/INFO]: Simulation Distance: 10
-[09:39:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:39:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:39:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[09:39:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[09:39:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[09:39:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[09:39:58] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:39:58] [Server thread/INFO]: Mob Spawn Range: 6
-[09:39:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:39:58] [Server thread/INFO]: Max TNT Explosions: 100
-[09:39:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:40:10] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[09:40:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:40:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:40:10] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:40:10] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:40:10] [Server thread/INFO]: View Distance: 32
-[09:40:10] [Server thread/INFO]: Simulation Distance: 10
-[09:40:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:40:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:40:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[09:40:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[09:40:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[09:40:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[09:40:10] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:40:10] [Server thread/INFO]: Mob Spawn Range: 6
-[09:40:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:40:10] [Server thread/INFO]: Max TNT Explosions: 100
-[09:40:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:40:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:25] [Server thread/INFO]: Time elapsed: 14840 ms
-[09:40:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[09:40:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:34] [Server thread/INFO]: Time elapsed: 9257 ms
-[09:40:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[09:40:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:40:43] [Server thread/INFO]: Time elapsed: 8228 ms
-[09:40:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[09:40:43] [Server thread/INFO]: Done (45.403s)! For help, type "help"
-[09:40:43] [Server thread/INFO]: Starting remote control listener
-[09:40:43] [Server thread/INFO]: Thread RCON Listener started
-[09:40:43] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[09:40:43] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[09:40:43] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
-[09:40:43] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
-[09:40:43] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
-[09:40:43] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
-[09:40:43] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
-[09:40:43] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[09:40:43] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m15.0.3[0;39m[m
-[09:40:43] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1maa377c1[0;39m[m
-[09:40:43] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
-[09:40:43] [Craft Scheduler Thread - 1/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
-[09:40:46] [User Authenticator #1/INFO]: UUID of player Wotrex is 1c2fc28f-9f78-3ddf-bb25-126c655cd32f
-[09:40:46] [Server thread/INFO]: Генерал Wotrex joined the game
-[09:40:46] [Server thread/INFO]: Wotrex[/91.217.61.164:55886] logged in with entity id 347 at ([world]-269.91451701999284, 64.0, 214.97874509160272)
-[09:40:58] [Server thread/INFO]: Wotrex issued server command: /?
-[09:41:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
-[09:41:01] [Server thread/INFO]: Wotrex issued server command: /? 1
-[09:41:04] [Server thread/INFO]: Wotrex issued server command: /? 11
-[09:41:27] [Server thread/INFO]: Wotrex issued server command: /kira
-[09:41:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5324ms or 106 ticks behind
-[09:41:56] [Server thread/INFO]: Wotrex lost connection: Disconnected
-[09:41:56] [Server thread/INFO]: Wotrex left the game
-[09:42:04] [Server thread/INFO]: Stopping the server
-[09:42:04] [Server thread/INFO]: Stopping server
-[09:42:04] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.3
-[09:42:04] [Server thread/INFO]: Saving players
-[09:42:04] [Server thread/INFO]: Saving worlds
-[09:42:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[09:42:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[09:42:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[09:42:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09:42:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:42:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:42:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[09:42:34] [Server thread/INFO]: Thread RCON Listener stopped
+[00:04:40] [User Authenticator #39/INFO]: UUID of player zaginzagin177 is e549feae-b130-32b8-86cf-18208b179beb
+[00:04:41] [Server thread/INFO]: Зрадник zaginzagin177 joined the game
+[00:04:41] [Server thread/INFO]: zaginzagin177[/95.134.57.250:57128] logged in with entity id 107446 at ([world]-413.87144495415515, -52.0, 231.30973817747716)
+[00:04:42] [Server thread/INFO]: zaginzagin177 lost connection: Disconnected
+[00:04:42] [Server thread/INFO]: zaginzagin177 left the game
+[00:04:46] [User Authenticator #40/INFO]: UUID of player zaginzagin177 is e549feae-b130-32b8-86cf-18208b179beb
+[00:04:47] [Server thread/INFO]: Зрадник zaginzagin177 joined the game
+[00:04:47] [Server thread/INFO]: zaginzagin177[/95.134.57.250:57131] logged in with entity id 107509 at ([world]-411.64451382108587, -52.0, 231.0104480199381)
+[00:04:49] [Server thread/INFO]: zaginzagin177 lost connection: Disconnected
+[00:04:49] [Server thread/INFO]: zaginzagin177 left the game
+[07:04:50] [User Authenticator #41/INFO]: UUID of player Wotrex is 1c2fc28f-9f78-3ddf-bb25-126c655cd32f
+[07:04:50] [Server thread/INFO]: Генерал Wotrex joined the game
+[07:04:50] [Server thread/INFO]: Wotrex[/91.217.61.164:56689] logged in with entity id 108056 at ([world]-264.30000001192093, 63.0, 221.30000001192093)
+[07:07:19] [Server thread/INFO]: Wotrex lost connection: Disconnected
+[07:07:19] [Server thread/INFO]: Wotrex left the game
+[07:10:44] [User Authenticator #42/INFO]: UUID of player Wotrex is 1c2fc28f-9f78-3ddf-bb25-126c655cd32f
+[07:10:44] [Server thread/INFO]: Генерал Wotrex joined the game
+[07:10:44] [Server thread/INFO]: Wotrex[/91.217.61.164:54226] logged in with entity id 108622 at ([world]-267.7983482975424, 72.0, 222.48302344391047)
+[07:14:03] [Server thread/INFO]: Wotrex lost connection: Disconnected
+[07:14:03] [Server thread/INFO]: Wotrex left the game
+[07:16:19] [User Authenticator #43/INFO]: UUID of player Wotrex is 1c2fc28f-9f78-3ddf-bb25-126c655cd32f
+[07:16:20] [Server thread/INFO]: Генерал Wotrex joined the game
+[07:16:20] [Server thread/INFO]: Wotrex[/91.217.61.164:51564] logged in with entity id 109361 at ([world]-224.46962770840634, 62.9375, 247.577437631162)
+[07:41:23] [Server thread/INFO]: Wotrex lost connection: Disconnected
+[07:41:23] [Server thread/INFO]: Wotrex left the game
+[07:41:24] [Server thread/WARN]: handleDisconnection() called twice
+[07:43:16] [User Authenticator #44/INFO]: UUID of player Wotrex is 1c2fc28f-9f78-3ddf-bb25-126c655cd32f
+[07:43:16] [Server thread/INFO]: Генерал Wotrex joined the game
+[07:43:16] [Server thread/INFO]: Wotrex[/91.217.61.164:52190] logged in with entity id 117107 at ([world]-257.90037769429665, 63.0, 229.45959461898366)
+[07:43:28] [Server thread/INFO]: Wotrex issued server command: /gamerule mobGriefing true
+[07:43:28] [Server thread/INFO]: [Генерал Wotrex: Gamerule mobGriefing is now set to: true]
+[07:53:57] [Server thread/INFO]: Wotrex lost connection: Disconnected
+[07:53:57] [Server thread/INFO]: Wotrex left the game
+[08:08:49] [User Authenticator #45/INFO]: UUID of player Wotrex is 1c2fc28f-9f78-3ddf-bb25-126c655cd32f
+[08:08:49] [Server thread/INFO]: Генерал Wotrex joined the game
+[08:08:49] [Server thread/INFO]: Wotrex[/91.217.61.164:52993] logged in with entity id 118882 at ([world]-277.034016696218, 64.0, 221.77981072620855)
+[08:16:38] [Server thread/INFO]: Wotrex lost connection: Disconnected
+[08:16:38] [Server thread/INFO]: Wotrex left the game
+[08:16:47] [Server thread/INFO]: Stopping the server
+[08:16:47] [Server thread/INFO]: Stopping server
+[08:16:47] [Server thread/INFO]: [DeathNote] Disabling DeathNote v1.0.2
+[08:16:47] [Server thread/INFO]: [DeathNote] Stopping database...
+[08:16:47] [Server thread/INFO]: [DeathNote] Plugin stopped!
+[08:16:47] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.3
+[08:16:47] [Server thread/INFO]: Saving players
+[08:16:48] [Server thread/INFO]: Saving worlds
+[08:16:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:16:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[08:16:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[08:16:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:16:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:16:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:16:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:16:54] [Server thread/INFO]: Thread RCON Listener stopped
