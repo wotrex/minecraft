@@ -1,54 +1,20 @@
-[00:04:40] [User Authenticator #39/INFO]: UUID of player zaginzagin177 is e549feae-b130-32b8-86cf-18208b179beb
-[00:04:41] [Server thread/INFO]: Зрадник zaginzagin177 joined the game
-[00:04:41] [Server thread/INFO]: zaginzagin177[/95.134.57.250:57128] logged in with entity id 107446 at ([world]-413.87144495415515, -52.0, 231.30973817747716)
-[00:04:42] [Server thread/INFO]: zaginzagin177 lost connection: Disconnected
-[00:04:42] [Server thread/INFO]: zaginzagin177 left the game
-[00:04:46] [User Authenticator #40/INFO]: UUID of player zaginzagin177 is e549feae-b130-32b8-86cf-18208b179beb
-[00:04:47] [Server thread/INFO]: Зрадник zaginzagin177 joined the game
-[00:04:47] [Server thread/INFO]: zaginzagin177[/95.134.57.250:57131] logged in with entity id 107509 at ([world]-411.64451382108587, -52.0, 231.0104480199381)
-[00:04:49] [Server thread/INFO]: zaginzagin177 lost connection: Disconnected
-[00:04:49] [Server thread/INFO]: zaginzagin177 left the game
-[07:04:50] [User Authenticator #41/INFO]: UUID of player Wotrex is 1c2fc28f-9f78-3ddf-bb25-126c655cd32f
-[07:04:50] [Server thread/INFO]: Генерал Wotrex joined the game
-[07:04:50] [Server thread/INFO]: Wotrex[/91.217.61.164:56689] logged in with entity id 108056 at ([world]-264.30000001192093, 63.0, 221.30000001192093)
-[07:07:19] [Server thread/INFO]: Wotrex lost connection: Disconnected
-[07:07:19] [Server thread/INFO]: Wotrex left the game
-[07:10:44] [User Authenticator #42/INFO]: UUID of player Wotrex is 1c2fc28f-9f78-3ddf-bb25-126c655cd32f
-[07:10:44] [Server thread/INFO]: Генерал Wotrex joined the game
-[07:10:44] [Server thread/INFO]: Wotrex[/91.217.61.164:54226] logged in with entity id 108622 at ([world]-267.7983482975424, 72.0, 222.48302344391047)
-[07:14:03] [Server thread/INFO]: Wotrex lost connection: Disconnected
-[07:14:03] [Server thread/INFO]: Wotrex left the game
-[07:16:19] [User Authenticator #43/INFO]: UUID of player Wotrex is 1c2fc28f-9f78-3ddf-bb25-126c655cd32f
-[07:16:20] [Server thread/INFO]: Генерал Wotrex joined the game
-[07:16:20] [Server thread/INFO]: Wotrex[/91.217.61.164:51564] logged in with entity id 109361 at ([world]-224.46962770840634, 62.9375, 247.577437631162)
-[07:41:23] [Server thread/INFO]: Wotrex lost connection: Disconnected
-[07:41:23] [Server thread/INFO]: Wotrex left the game
-[07:41:24] [Server thread/WARN]: handleDisconnection() called twice
-[07:43:16] [User Authenticator #44/INFO]: UUID of player Wotrex is 1c2fc28f-9f78-3ddf-bb25-126c655cd32f
-[07:43:16] [Server thread/INFO]: Генерал Wotrex joined the game
-[07:43:16] [Server thread/INFO]: Wotrex[/91.217.61.164:52190] logged in with entity id 117107 at ([world]-257.90037769429665, 63.0, 229.45959461898366)
-[07:43:28] [Server thread/INFO]: Wotrex issued server command: /gamerule mobGriefing true
-[07:43:28] [Server thread/INFO]: [Генерал Wotrex: Gamerule mobGriefing is now set to: true]
-[07:53:57] [Server thread/INFO]: Wotrex lost connection: Disconnected
-[07:53:57] [Server thread/INFO]: Wotrex left the game
-[08:08:49] [User Authenticator #45/INFO]: UUID of player Wotrex is 1c2fc28f-9f78-3ddf-bb25-126c655cd32f
-[08:08:49] [Server thread/INFO]: Генерал Wotrex joined the game
-[08:08:49] [Server thread/INFO]: Wotrex[/91.217.61.164:52993] logged in with entity id 118882 at ([world]-277.034016696218, 64.0, 221.77981072620855)
-[08:16:38] [Server thread/INFO]: Wotrex lost connection: Disconnected
-[08:16:38] [Server thread/INFO]: Wotrex left the game
-[08:16:47] [Server thread/INFO]: Stopping the server
-[08:16:47] [Server thread/INFO]: Stopping server
-[08:16:47] [Server thread/INFO]: [DeathNote] Disabling DeathNote v1.0.2
-[08:16:47] [Server thread/INFO]: [DeathNote] Stopping database...
-[08:16:47] [Server thread/INFO]: [DeathNote] Plugin stopped!
-[08:16:47] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.3
-[08:16:47] [Server thread/INFO]: Saving players
-[08:16:48] [Server thread/INFO]: Saving worlds
-[08:16:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[08:16:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[08:16:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[08:16:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[08:16:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08:16:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08:16:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[08:16:54] [Server thread/INFO]: Thread RCON Listener stopped
+[14:13:25] [Server thread/INFO]: Stopping the server
+[14:13:25] [Server thread/INFO]: Stopping server
+[14:13:25] [Server thread/INFO]: [AntiCreeper] Disabling AntiCreeper v2.8
+[14:13:25] [Server thread/INFO]: [AntiCreeper] Disabled!
+[14:13:25] [Server thread/INFO]: [DeathNote] Disabling DeathNote v1.0.2
+[14:13:25] [Server thread/INFO]: [DeathNote] Stopping database...
+[14:13:25] [Server thread/INFO]: [DeathNote] Plugin stopped!
+[14:13:25] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.3
+[14:13:25] [Server thread/INFO]: Saving players
+[14:13:25] [Server thread/INFO]: Saving worlds
+[14:13:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:13:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:13:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:13:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:13:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:13:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:13:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:13:31] [Server thread/INFO]: Thread RCON Listener stopped
+[14:13:31] [RCON Client /69.164.217.245 #9/INFO]: Thread RCON Client /69.164.217.245 shutting down
+[14:13:31] [Server thread/INFO]: Thread RCON Client /69.164.217.245 stopped
